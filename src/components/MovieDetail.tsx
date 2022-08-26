@@ -61,15 +61,6 @@ export const MovieDetail = () => {
       <Typography>
         <strong>Release date</strong>: {movie && movie.release_date}
       </Typography>
-      <Typography>
-        <strong>Created</strong>: {movie && movie.created}
-      </Typography>
-      <Typography>
-        <strong>Edited</strong>: {movie && movie.edited}
-      </Typography>
-      <Typography>
-        <strong>URL</strong>: {movie && movie.url}
-      </Typography>
     </AppLayout>
   );
 };
